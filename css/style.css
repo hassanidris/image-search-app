@@ -160,6 +160,18 @@ body {
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
+@media (max-width: 650px) {
+  .gallery_data {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+@media (max-width: 375px) {
+  .gallery_data {
+    -moz-columns: 1;
+         columns: 1;
+  }
+}
 .gallery_card {
   width: 100%;
   margin: 20px;
